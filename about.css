@@ -1,0 +1,255 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+
+/* --------  body ------------------------------------------------------------------------------------------------------------ */
+
+body
+{
+  color: #ededed;  
+  background: #000000;
+}
+.header{
+    position: fixed;
+    background-color: #081b29;
+    width: 100%;
+    z-index: 100;
+    
+}
+.profile{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background: url(image/3.png)no-repeat;
+    background-color: rgb(9, 7, 1);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1rem;
+    background-position:left bottom;
+    
+}
+.image a{
+    background-color: #ededed;
+    margin-top: 10rem;
+    width: 500px;
+    height: 500px;
+}
+
+
+.profile1 h1{
+   
+    font-size: 60px;
+    font-weight: 600;
+    
+
+}
+.profile1 p{
+    text-align: justify;
+    padding-right: 10%;
+}
+.education1{
+    margin: 20px;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    align-items: center;
+
+}
+.education h2{
+    font-size: 40px;
+    margin:10px 40px;
+    color: darkorange;
+    text-align: center;
+}
+.campus{
+    margin: 20px;
+}
+.campus h3{
+    padding-bottom: 10px;
+}
+.campus h4{
+    padding-bottom: 5px;
+}
+
+.al{
+    margin: 20px;
+}
+.al h3{
+    padding-bottom: 10px;
+}
+.al h4{
+    padding-bottom: 5px;
+}
+
+.ol{
+    margin: 20px;
+}
+.ol h3{
+    padding-bottom: 10px;
+}
+.ol h4{
+    padding-bottom: 5px;
+}
+
+.work1 h2{
+    font-size: 40px;
+    margin:10px 20px;
+    color: darkorange;
+    
+}
+.work1{
+    margin:20px 20px;
+}
+.work1 h3{
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.work h4{
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.achiev1 h2{
+    font-size: 40px;
+    margin:10px 20px;
+    color: darkorange;
+    
+}
+.achiev1{
+    margin:20px 20px;
+}
+.achiev1 p{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 1000px;
+}
+
+@media (max-width:642px){
+    .profile{
+        display:flex;
+        padding-top: 80%;
+        background: url(image/3.png)no-repeat;
+        background-color: #000;
+        align-items: center;
+        background-position: top center;
+        height: auto;
+        
+    }
+    .image a{
+       display: none;
+    }
+    .profile1{
+        
+        width: 100%;
+        height: auto;
+        margin: 5% ;
+    
+
+    }
+    .profile1 h1{
+        font-size: 40px;
+        font-weight: 600;
+        text-align: center;
+        
+    
+    }
+    .profile1 p{
+        text-align: justify;
+        padding: 2%;
+        margin-bottom: 3%;
+        padding-bottom: 10px;
+        
+    }
+    .education1{
+        margin: 3%;
+        display:block;
+        align-items: center;
+    
+    }
+    .education h2{
+        font-size: 30px;
+        margin:3%;
+        color: darkorange;
+        text-align: center;
+    }
+    .campus{
+        margin: 3%;
+    }
+    .campus h3{
+        padding-bottom: 10px;
+    }
+    .campus h4{
+        padding-bottom: 5px;
+    }
+    
+    .al{
+        margin: 3%;
+    }
+    .al h3{
+        padding-bottom: 10px;
+    }
+    .al h4{
+        padding-bottom: 5px;
+    }
+    
+    .ol{
+        margin: 3%;
+    }
+    .ol h3{
+        padding-bottom: 10px;
+    }
+    .ol h4{
+        padding-bottom: 5px;
+    }
+    
+    .work1 h2{
+        font-size: 30px;
+        margin:3%;
+        color: darkorange;
+        
+    }
+    .work1{
+        margin:3%;
+    }
+    .work1 h3{
+        padding-bottom: 10px;
+        padding-left: 3%;
+    }
+    .work h4{
+        padding-bottom: 5px;
+        padding-left: 3%;
+    }
+    
+    .achiev1 h2{
+        font-size: 30px;
+        margin:3%;
+        color: darkorange;
+        
+    }
+    .achiev1{
+        margin:3%;
+    }
+    .achiev1 p{
+        padding-top: 20px;
+        padding-left: 3%;
+        width: auto;
+    }
+}
+
+@media (max-width:540px){
+
+    .profile{
+        display: flex;
+        padding-top: 115%;
+        background: url(image/3.png)no-repeat;
+        background-color: #000;
+        align-items: center;
+        background-position: top center;
+        height: auto;
+        
+    }
+}
